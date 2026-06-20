@@ -4,6 +4,14 @@ Ethical hacking, secure coding, web security testing, threat modeling, and defen
 
 Last verified: 2026-06-20
 
+## Runnable Starter Project
+
+Run the localhost-only defensive header lab:
+
+```bash
+python3 projects/local-header-lab/check.py
+```
+
 ## Safety Boundary
 
 This repository is for authorized, local, educational security practice only.
