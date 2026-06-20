@@ -2,7 +2,15 @@
 
 Ethical hacking, secure coding, web security testing, threat modeling, and defensive security labs.
 
-Last verified: 2026-06-20
+Last verified: 2026-06-21
+
+## Development Environment
+
+If Python is missing locally, enter the Nix shell:
+
+```bash
+nix develop
+```
 
 ## Runnable Starter Project
 
@@ -12,6 +20,26 @@ Run the localhost-only defensive header lab:
 python3 projects/local-header-lab/check.py
 python3 projects/local-header-lab/test_headers.py
 ```
+
+## Target Hands-On Projects
+
+OWASP input validation:
+
+```bash
+python3 projects/owasp-input-validation-lab/lab.py
+python3 projects/owasp-input-validation-lab/test_lab.py
+```
+
+Access control (Broken Object-Level Authorization / IDOR):
+
+```bash
+python3 projects/access-control-lab/server.py
+python3 -m unittest discover -s projects/access-control-lab -p 'test_*.py'
+```
+
+Keep these labs local and defensive: demonstrate the vulnerable shape, then prove the safe version.
+
+See `docs/learning-resources.md` for curated primary sources.
 
 ## Safety Boundary
 
