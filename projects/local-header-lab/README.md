@@ -6,6 +6,7 @@ A defensive localhost-only lab for checking basic HTTP security headers.
 
 ```bash
 python3 projects/local-header-lab/check.py
+python3 projects/local-header-lab/test_headers.py
 ```
 
 The checker verifies the expected defensive header policy without opening a socket.

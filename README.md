@@ -10,6 +10,7 @@ Run the localhost-only defensive header lab:
 
 ```bash
 python3 projects/local-header-lab/check.py
+python3 projects/local-header-lab/test_headers.py
 ```
 
 ## Safety Boundary
