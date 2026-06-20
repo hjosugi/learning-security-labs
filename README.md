@@ -78,7 +78,7 @@ docs/
 
 - general platform security checklists belong in `learning-platform-engineering`
 - production incident/runbook notes do not belong in a public lab repo
-- P2P abuse-resistance design belongs in `learning-networking-protocols`
+- P2P abuse-resistance design belongs in `learning-platform-engineering`
 - backend implementation fixes can be mirrored in `learning-backend-ddd`
 
 ## First Milestones
